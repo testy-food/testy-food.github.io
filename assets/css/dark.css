@@ -16,7 +16,8 @@ body.dark .food .slide,
 body.dark .drinks .slide, 
 body.dark .order form,
 body.dark .food-preview-container .food-preview,
-body.dark .drinks-preview-container .drinks-preview {
+body.dark .drinks-preview-container .drinks-preview,
+body.dark .complaint form  {
     background-color: #222;
 }
 
@@ -40,6 +41,7 @@ body.dark .drinks-preview-container .drinks-preview h3,
 body.dark .food-preview-container .food-preview .price,
 body.dark .drinks-preview-container .drinks-preview .price,
 body.dark .order form .input-box .input span,
+body.dark .complaint form span,
 body.dark header .icons i:last-child {
     color: #fff;
 }
