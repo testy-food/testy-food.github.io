@@ -1,0 +1,61 @@
+
+
+/* dark */
+
+body.dark {
+    background-color: #151515;
+}
+
+body.dark section {
+    background-color: #151515;
+}
+
+body.dark header,
+body.dark .dishes .box-container .box,
+body.dark .food .slide,
+body.dark .drinks .slide, 
+body.dark .order form,
+body.dark .food-preview-container .food-preview,
+body.dark .drinks-preview-container .drinks-preview {
+    background-color: #222;
+}
+
+body.dark header .navbar a,
+body.dark header .logo,
+body.dark .home .home-slider .slide .content h3,
+body.dark .p .p1,
+body.dark .p .p2,
+body.dark .p .p3,
+body.dark .heading,
+body.dark .review .slide .user h3,
+body.dark .footer .box-container h3,
+body.dark .footer .credit,
+body.dark .dishes .box-container .box h3,
+body.dark .dishes .box-container .box .fa-heart,
+body.dark .dishes .box-container .box .fa-eye,
+body.dark .food .slide h3,
+body.dark .drinks .slide h3,
+body.dark .food-preview-container .food-preview h3,
+body.dark .drinks-preview-container .drinks-preview h3,
+body.dark .food-preview-container .food-preview .price,
+body.dark .drinks-preview-container .drinks-preview .price,
+body.dark .order form .input-box .input span,
+body.dark header .icons i:last-child {
+    color: #fff;
+}
+
+body.dark header .navbar a.active,
+body.dark header .navbar a:hover {
+    color: var(--green-color);
+}
+
+
+@media (max-width: 768px) {
+    body.dark header .navbar {
+        background-color: #151515;
+    }
+
+    body.dark header .navbar a {
+        background-color: #222;
+    }
+}
