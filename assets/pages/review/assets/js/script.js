@@ -32,21 +32,6 @@ $(document).ready(function () {
 
     })
 
-    // trigger swiper [home section]
-
-    var swiper = new Swiper(".home-slider", {
-        spaceBetween: 30,
-        centeredSlides: true,
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-        },
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-    });
-
     // loading screen 
 
     $(".loader").fadeOut("slow")
@@ -60,5 +45,34 @@ $(document).ready(function () {
 
     })
 
+    
+    // review Gallery 
+
+    var swiper = new Swiper(".myslider", {
+        grabCursor:true,
+        loop:true,
+        centeredSlides:true,
+        autoplay: {
+            delay: 3500,
+            disableOnInteraction: false,
+        },
+        slidesPerView: 1,
+        spaceBetween: 20,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+        700: {
+            slidesPerView: 2,
+        },
+        1000: {
+            slidesPerView: 3,
+        },
+        },
+    });
 
 })

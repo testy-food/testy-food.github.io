@@ -34,8 +34,9 @@
                 <a href="assets/pages/about us/index.html">about</a>
                 <a href="assets/pages/Branches-Our Location/index.html">locations</a>
                 <a href="assets/pages/dishes/index.html">dishes</a>
-                <a href="#menu">menu</a>
-                <a href="#review">review</a>
+                <a href="assets/pages/menu-food/food.html">menu-food</a>
+                <a href="assets/pages/menu-drinks/drink.html">menu-drink</a>
+                <a href="assets/pages/review/index.html">review</a>
                 <a href="assets/pages/complaints/index.html">Complaints</a>
                 <a href="assets/pages/contact/index.html">contact</a>
             </nav>
@@ -110,6 +111,63 @@
 
         <!-- End Home -->
 
+        <!-- start reg -->
+
+        <div class="reg">
+            <div class="inner">
+                <div class="lo">
+                    <p class="we">SIGN UP IN TESTY</p>
+                    <img src="assets/images/download.png" class="i2">
+                    <img src="assets/images/facebook.png" class="i1">
+                    <center>
+                        <p>SIGN UP</p>
+                    </center>
+                    <form class="fr" id="regform" method="post">
+                        <input class="reg-user" name="username" type="text" placeholder="Username" autofocus required>
+                        <br>
+                        <br>
+                        <input name="password" class="password1" type="password" placeholder="Password" required>
+                        <br>
+                        <br>
+                        <input name="password-agin" class="password2" type="password" placeholder="Type Password again" required>
+                        <br>
+                        <br>
+                        <button class="button btn-4 submitbtn reg-btn disabled" disabled>sign up</button>
+                    </form>
+                    <center>
+                        <p>privacy policy</p>
+                        <p>Don't have an Testy account?
+                            <a href="#">sign in</a>
+                        </p>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <!-- start login -->
+    
+        <div class="log">
+            <div class="inner">
+                <div class="lo">
+                    <p class="we">Welcome back!</p>
+                    <form class="fr" method="post">
+                        <input class="log-user" name="username" type="text" placeholder="Username" autofocus required>
+                        <br>
+                        <br>
+                        <input class="log-pass" name="password" type="password" placeholder="Password" required>
+                        <button class="button btn-4 login-btn submitbtn disabled" disabled>login</button>
+            
+                    </form>
+                    <center>
+                        <p>privacy policy</p>
+                        <p>Don't have an Testy account?
+                            <a href="#">sign up</a>
+                        </p>
+                    </center>
+                </div>
+            </div>
+        </div>
+
         <!-- start footer -->
 
         <section class="footer">
@@ -171,6 +229,7 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- main js -->
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/validition.js"></script>
 
     </body>
 </html>
